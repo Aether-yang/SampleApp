@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 
-public class MyActivity extends Activity {
+public class MainActivity extends Activity {
     private static final String TAG = "MyActivity";
 
     private TextView textView;
@@ -20,7 +20,7 @@ public class MyActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my);
+        setContentView(R.layout.activity_main);
 
         Log.d(TAG, "onCreate");
         textView = (TextView) findViewById(R.id.text_view);
@@ -78,7 +78,7 @@ public class MyActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.my, menu);
+        getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
 
