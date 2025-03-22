@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
-
+    namespace 'com.nfjs.helloworldas'
     defaultConfig {
-        applicationId "com.nfjs.helloworldas"
-        minSdkVersion 16
-        targetSdkVersion 29
+        applicationId "com.example.helloworldas"
+        minSdkVersion 26
+        targetSdkVersion 31
+        compileSdk  31
         versionCode 1
         versionName "1.0"
 
@@ -27,7 +27,7 @@ android {
         }
     }
 
-    flavorDimensions('attitude')
+    flavorDimensions = ['attitude']
 
     productFlavors {
         arrogant {
@@ -55,9 +55,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    annotationProcessor 'androidx.room:room-compiler:2.5.1'
-    implementation 'androidx.room:room-runtime:2.5.1'
-    testImplementation 'androidx.room:room-testing:2.5.1'
+    annotationProcessor 'androidx.room:room-compiler:2.1.0'
+    implementation 'androidx.room:room-runtime:2.1.0'
+    testImplementation 'androidx.room:room-testing:2.1.0'
     androidTestImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test:core:1.3.0'
     androidTestImplementation 'androidx.test:runner:1.5.2'

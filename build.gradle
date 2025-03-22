@@ -3,7 +3,9 @@
 buildscript {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
+        mavenLocal()
+        maven { url 'https://jitpack.io' } //jitpack 可用于引用github和gitee
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.4.2'
@@ -16,8 +18,10 @@ buildscript {
 allprojects {
     repositories {
         google()
-        jcenter()
+        mavenCentral()
+        mavenLocal()
+        maven { url 'https://jitpack.io' } //jitpack 可用于引用github和gitee
     }
 }
 
-apply plugin: 'android-reporting'
+//apply plugin: 'android-reporting'
