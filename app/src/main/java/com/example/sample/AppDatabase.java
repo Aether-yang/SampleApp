@@ -1,4 +1,4 @@
-package com.nfjs.helloworldas;
+package com.example.sample;
 
 import androidx.room.Database;
 import androidx.room.RoomDatabase;

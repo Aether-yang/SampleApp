@@ -1,4 +1,4 @@
-HelloWorldAS
+Sample
 ============
 
 Android "Hello, World" example, using Android Studio

@@ -1,4 +1,4 @@
-package com.nfjs.helloworldas;
+package com.example.sample;
 
 import android.app.Activity;
 import android.content.Intent;

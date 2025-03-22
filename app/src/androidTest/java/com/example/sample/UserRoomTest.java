@@ -1,4 +1,4 @@
-package com.nfjs.helloworldas;
+package com.example.sample;
 
 import androidx.room.Room;
 import androidx.test.core.app.ApplicationProvider;

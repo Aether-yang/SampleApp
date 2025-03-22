@@ -1,4 +1,4 @@
-package com.nfjs.helloworldas;
+package com.example.sample;
 
 import androidx.room.Dao;
 import androidx.room.Delete;

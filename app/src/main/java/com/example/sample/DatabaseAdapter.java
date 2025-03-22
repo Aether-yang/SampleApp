@@ -1,4 +1,4 @@
-package com.nfjs.helloworldas;
+package com.example.sample;
 
 import android.content.ContentValues;
 import android.content.Context;
