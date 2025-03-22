@@ -1,7 +1,6 @@
 package com.example.sample;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -38,10 +37,6 @@ public class MyActivity extends Activity {
     public void sayHello(View view) {
         String name = editText.getText().toString();
         textView.setText(String.format("Hello, %1$s!", name));
-
-        Intent intent = new Intent(this, WelcomeActivity.class);
-        intent.putExtra("name", name);
-        startActivity(intent);
     }
 
     @Override
